@@ -1,0 +1,95 @@
+body {
+	font-family: "Courier New", Courier, serif;
+	background-color: #191919;
+	color: white;
+}
+article {
+	padding: 5px;
+	text-align: justify;
+}
+.container {
+	display: grid;
+	grid-template-columns: 200px 100px auto 100px 200px;
+	grid-template-rows: 50px 50px 50px 50px 50px 400px 50px;
+}
+.title {
+	text-align: center;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	grid-column-start:1;
+	grid-column-end: 6;
+	background-color: #0c0c0c;
+	border-bottom: 2px dashed white;
+}
+.title h2 {
+	font-weight: normal;
+}
+.navigation {
+	text-align: center;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 6;
+}	
+.navigation ul {
+	padding-left: 0px;
+}
+.navigation ul li{
+	border-bottom: 1px solid white;
+	display: inline;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.navigation a {
+	color: white;
+	text-decoration: none;
+}
+.left {
+	background-color: #0c0c0c;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	grid-column-start: 1;
+	grid-column-end: 3;
+
+
+}
+.efni {
+	background-color: #191919;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	grid-column-start: 3;
+	grid-column-end: 4;
+
+}
+.right {
+	background-color: #0c0c0c;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	grid-column-start: 4;
+	grid-column-end: 6;
+
+
+}
+.bottom {
+	text-align: center;
+	border-top: 2px dashed white;
+	background-color: #0c0c0c;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+.bottom ul {
+	padding-left: 0px;
+}
+.bottom ul li{
+	border-bottom: 1px solid white;
+	display: inline;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.bottom a {
+	color: white;
+	text-decoration: none;
+}
+
